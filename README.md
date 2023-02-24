@@ -1,4 +1,4 @@
-# Frontend Mentor - Testimonials grid section solution
+~~# Frontend Mentor - Testimonials grid section solution
 
 This is a solution to the [Testimonials grid section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7).
 ## Table of contents
@@ -15,7 +15,11 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 
 ### Screenshot
 
-![](./screenshot.png)
+#### desktop
+![](screenshots/screenshot-desktop.png)
+
+#### mobile
+![](screenshots/screenshot-mobile.png)
 
 ### Links
 
@@ -23,4 +27,4 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 - Live Site URL: [on github page](https://rafikchb.github.io/mentor-testimonials-grid-section/)
 
 ## Author
-- [github.com/rafikchb](https://github.com/rafikchb)
+- [github.com/rafikchb](https://github.com/rafikchb)~~
