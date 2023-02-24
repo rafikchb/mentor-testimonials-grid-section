@@ -1,0 +1,130 @@
+:root {
+    /* priamry colors  */
+    --clr-primary-moderate-violet: hsl(263, 55%, 52%);
+    --clr-primary-grayish-blue: hsl(217, 19%, 35%);
+    --clr-priamry-balckish-blue: hsl(219, 29%, 14%);
+    --white: white;
+    /* neutral colors  */
+    --clr-light-gray: hsl(0, 0%, 81%);
+    --clr-Light-grayish-blue: hsl(210, 46%, 95%);
+    color: white;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    
+}
+
+body{ 
+    /* height: 100vh; */ /*when i add this line of code the top part of mys dising is cuted of where is the problem .*/
+padding-top: 30px;
+    background-color:rgb(76, 185, 189);
+}
+
+.txt-white {
+    color: white;
+}
+
+.txt-dark {
+    color: var(--clr-primary-grayish-blue) !important;
+}
+
+.trans-50 {
+    opacity: 0.5;
+}
+
+.trans-75 {
+    opacity: 0.7;
+}
+
+.testimonial-panel {
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px; 
+    column-gap: 20px;
+    overflow: visible;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+@media screen and (min-width: 500px) {
+    .testimonial-panel {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+.testimony {
+    border-radius: 0.625rem;
+    padding: 1.35rem;
+
+}
+
+.testimony .author {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem; 
+    margin-bottom : 1rem;
+}
+
+.author img {
+    width: 2rem;
+    display: block;
+    border-radius: 50%;
+}
+
+.testimony .author a {
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+    font-size: 0.7rem;
+    line-height: 1.3em;
+}
+
+.testimony .author span {
+    color: var(--clr-light-gray);
+    font-size: 0.6rem;
+}
+
+
+
+.testimony h2 {
+    margin-bottom : 0.75rem;
+    font-size: 0.75rem;
+    line-height: 1.2em;
+}
+
+.testimony p {
+    color: var(--clr-Light-grayish-blue);
+    font-size: 0.75rem;
+    line-height: 1.2em;
+
+}
+
+.author span,
+.author a {
+    display: block;
+}
+
+.testimony:nth-of-type(1) {
+    background-color: var(--clr-primary-moderate-violet);
+    grid-column: span 2;
+}
+
+.testimony:nth-of-type(2) {
+    background-color: var(--clr-primary-grayish-blue);
+}
+
+.testimony:nth-last-of-type(3) {
+    background-color: var(--white);
+}
+
+.testimony:nth-of-type(4) {
+    background-color: var(--clr-priamry-balckish-blue);
+    grid-column: span 2;
+}
+
+.testimony:nth-of-type(5) {
+    background-color: white;
+    grid-column-start: -2;
+    grid-row: 1 / span 2;
+}
