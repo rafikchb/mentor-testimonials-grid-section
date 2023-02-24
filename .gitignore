@@ -15,3 +15,7 @@
 .DS_Store
 
 .prettierignore
+
+# editor specific files
+.idea
+.vscode

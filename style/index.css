@@ -9,13 +9,12 @@
     --clr-Light-grayish-blue: hsl(210, 46%, 95%);
     color: white;
     font-family: 'Barlow Semi Condensed', sans-serif;
-    
+
 }
 
-body{ 
-    /* height: 100vh; */ /*when i add this line of code the top part of mys dising is cuted of where is the problem .*/
-padding-top: 30px;
-    background-color:rgb(76, 185, 189);
+body {
+    padding-top: 30px;
+    background-color: rgb(76, 185, 189);
 }
 
 .txt-white {
@@ -38,14 +37,14 @@ padding-top: 30px;
     max-width: 900px;
     display: flex;
     flex-direction: column;
-    row-gap: 20px; 
+    row-gap: 20px;
     column-gap: 20px;
     overflow: visible;
     margin: 0 auto;
     padding: 0 1rem;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 768px) {
     .testimonial-panel {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -62,8 +61,8 @@ padding-top: 30px;
 .testimony .author {
     display: flex;
     align-items: center;
-    column-gap: 1rem; 
-    margin-bottom : 1rem;
+    column-gap: 1rem;
+    margin-bottom: 1rem;
 }
 
 .author img {
@@ -86,9 +85,8 @@ padding-top: 30px;
 }
 
 
-
 .testimony h2 {
-    margin-bottom : 0.75rem;
+    margin-bottom: 0.75rem;
     font-size: 0.75rem;
     line-height: 1.2em;
 }
